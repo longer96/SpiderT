@@ -56,4 +56,4 @@ def main(offset):
 
 if __name__ == '__main__':
     pool = Pool()
-    pool.map(main,[i*20 for i in range(10)])
+    pool.map(main, [i * 20 for i in range(10)])
